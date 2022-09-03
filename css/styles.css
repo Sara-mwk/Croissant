@@ -10,11 +10,16 @@ h4 {
     padding-bottom: 40px;
 }
 
+p {
+    text-indent: 10px;
+}
 .container {
     width: 300px;
     height: 600px;
     background: bisque;
 }
-.croissant {
-    display: block;
+.img-croissant {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
