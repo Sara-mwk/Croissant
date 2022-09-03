@@ -1,7 +1,7 @@
 body {
     background: rgb(171, 171, 69);
 }
-h1 {
+h1, p{
     text-align: center;
     padding: 30px ;
 }
@@ -11,15 +11,29 @@ h4 {
 }
 
 p {
-    text-indent: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 footer {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
 footer a {
     margin: 0 10px;
+   
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
     color: green;
 }
 .container {
